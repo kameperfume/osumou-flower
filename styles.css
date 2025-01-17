@@ -1,0 +1,287 @@
+body,
+h1,
+h2,
+p,
+div {
+  margin: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+body,
+p {
+  font-family: "游ゴシック", "游ゴシック体";
+}
+
+body {
+  width: 400px;
+}
+
+/* header */
+header {
+  width: 100%;
+  padding: 10px 20px;
+  background: #3b4b5a;
+  color: white;
+  box-sizing: border-box;
+}
+
+h1 {
+  display: flex;
+  font-size: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* hamburger menu*/
+
+h1 a {
+  display: inline-block;
+  font-size: 40px;
+  color: white;
+}
+
+/* hero */
+
+.hero {
+  width: 100%;
+  height: 600px;
+  background-image: url(https://256times-upload-files.s3.ap-northeast-1.amazonaws.com/production/101/4311/af880fc03d0175ac6ec908ba4f05cab9769dbdcc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: inline-box;
+  box-sizing: border-box;
+  padding-top: 200px;
+}
+
+#words {
+  width: 300px;
+  height: 200px;
+  background-color: rgba(59, 75, 90, 0.6);
+  margin: auto 30px;
+  padding-top: 30px;
+}
+
+.hero h2 {
+  font-size: 30px;
+  line-height: 2;
+}
+
+.hero-beauty {
+  font-family: "游明朝", "游明朝体";
+}
+
+.h2-words {
+  font-family: "游ゴシック", "游ゴシック体";
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+/* concept */
+
+.concepts {
+  width: 100%;
+  height: auto;
+  color: white;
+  box-sizing: border-box;
+}
+
+.concepts h2 {
+  font-family: "游明朝", "游明朝体";
+}
+
+.concepts p {
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.concept1 {
+  background-image: url(https://256times-upload-files.s3.ap-northeast-1.amazonaws.com/production/101/4330/2bdd8283b2819d0791da7b7d130acbf0df5dd52e.jpg);
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  padding-top: 60px;
+  display: inline-box;
+  box-sizing: border-box;
+  padding-left: 100px;
+}
+
+.concept1-textbox {
+  width: 300px;
+  height: 210px;
+  background-color: rgba(59, 75, 90, 0.6);
+  letter-spacing: 1px;
+}
+
+.concept1 h2 {
+  text-align: right;
+  padding-top: 10px;
+}
+
+.concept1 p {
+  text-align: right;
+}
+
+.concept2 {
+  background-image: url(https://256times-upload-files.s3.ap-northeast-1.amazonaws.com/production/101/4329/2ecd716a85b245713eb4aefc1cd7f3e90d7a32c6.jpg);
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+}
+
+.concept2-textbox {
+  width: 300px;
+  height: 220px;
+  background-color: rgba(59, 75, 90, 0.6);
+  letter-spacing: 1px;
+}
+
+.concept2 h2 {
+  padding-top: 10px;
+}
+
+.concept3 {
+  background-image: url(https://256times-upload-files.s3.ap-northeast-1.amazonaws.com/production/101/4328/577ad7e3a00d1da872e394dabaec40ed5f6e1ec8.jpg);
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  padding-left: 100px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.concept3-textbox {
+  width: 300px;
+  height: 200px;
+  background-color: rgba(59, 75, 90, 0.6);
+  letter-spacing: 1px;
+}
+
+.concept3 h2 {
+  text-align: right;
+  padding-top: 20px;
+}
+
+.concept3 p {
+  text-align: right;
+}
+
+/* Services */
+
+.services {
+  width: 100%;
+  height: auto;
+  margin: 100px 0 0 0;
+  padding: 0;
+}
+
+.services h2 {
+  margin: 8px 0;
+  font-family: "游明朝", "游明朝体";
+}
+
+.services p {
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+/* garelly */
+.carousel {
+  width: 400px;
+  height: 350px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel i {
+  font-size: 48px;
+  color: rgba(243, 244, 241);
+  font-weight: bold;
+}
+
+.button-prev,
+.button-next {
+  position: absolute;
+  line-height: 0;
+  top: 126px;
+  z-index: 2;
+}
+
+.button-next {
+  right: 0;
+}
+
+
+
+/* footer */
+
+footer {
+  width: 400px;
+  height: 360px;
+  text-align: center;
+  background-color: #f4f3e1;
+  padding-top: 40px;
+  display: inline-block;
+}
+
+.sns {
+  padding: 10px 125px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.sns i {
+  font-size: 24px;
+}
+
+.bi-instagram {
+  color: orange;
+}
+
+.bi-twitter-x {
+  color: black;
+}
+
+.bi-facebook {
+  background-color: white;
+  color: navy;
+}
+
+table {
+  text-align: left;
+  margin: 20px auto;
+  width: 350px;
+  padding: 8px 8px;
+  font-family: "游ゴシック", "游ゴシック体";
+}
+
+td {
+  width: 175px;
+}
